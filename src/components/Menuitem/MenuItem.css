@@ -19,17 +19,17 @@
   flex: 1;
 }
 
-
-.app__menuitem-dush{
-  padding: static;
-  width: 119px;
+.app__menuitem-dash{
+  width: 90px;
   height: 1px;
-  top : 14.5px;
 
-  background-color: #fafafa;
-  flex: none;
-  order: 1; 
-  margin: 0px 32px;
+  background-color: var(--color-golden);
+  margin: 0px 1rem;
+}
 
+.app__menuitem-price {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
